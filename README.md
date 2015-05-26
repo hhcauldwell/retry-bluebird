@@ -12,7 +12,11 @@ npm install --save retry-bluebird
 `retry(opts, callback)`
 
 `callback` function that returns a Promise
+
+`opts` [optional] options object
+
 `opts.max` maximum number of retries (default: `5`)
+
 `opts.backoff` time interval in ms between retries (default: `500`)
 
 The time between retries is (`attempt number * backoff`) so that time between
