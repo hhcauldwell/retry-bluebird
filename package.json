@@ -1,0 +1,24 @@
+{
+  "name": "retry-bluebird",
+  "version": "0.1.0",
+  "description": "Node module for retrying rejected bluebird Promises until they fulfill.",
+  "main": "retry-bluebird.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bcauldwell/retry-bluebird.git"
+  },
+  "keywords": [
+    "['bluebird'",
+    "'promises'",
+    "'retry']"
+  ],
+  "author": "benjamin.cauldwell@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcauldwell/retry-bluebird/issues"
+  },
+  "homepage": "https://github.com/bcauldwell/retry-bluebird"
+}
