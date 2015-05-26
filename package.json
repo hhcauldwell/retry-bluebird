@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/bcauldwell/retry-bluebird/issues"
   },
-  "homepage": "https://github.com/bcauldwell/retry-bluebird"
+  "homepage": "https://github.com/bcauldwell/retry-bluebird",
+  "dependencies": {
+    "bluebird": "2.9.x"
+  }
 }
